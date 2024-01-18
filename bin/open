@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'Shift」「Command」「3」で全画面のスクリーンショットを撮ってください'
+open 'http://127.0.0.1:80'

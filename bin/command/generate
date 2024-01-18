@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# -filter_complex  "[1]ahistogram=s=789x50:rheight=1[fg];[0][fg]overlay=(W-w)/2:H-h-10:shortest=1,scale='iw-mod(iw,2)':'ih-mod(ih,2)',format=yuv420p[v]" -map "[v]" -map 1:a
+
+docker exec -it youtube-art-track-builder-core ffmpeg -loop 1 -i input/06.png -i input/06.wav -c:v libx264 -tune stillimage -c:a aac -b:a 384k -pix_fmt yuv420p -shortest output/06_out.mp4

@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Exo';
+.content {
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+    opacity: 0.8;
+}
+p {
+    font-size: 1.2em;
+}
+h1 {
+    font-size: 2em;
+}
+.container {
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+    color: white;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.image {
+    background: center/cover;
+    background-image: url(./resource/jacket.jpg);
+}
+.image.thumb {
+    height: 68vmin;
+    margin: 10vw 10vw 10vw 10vw;
+    width: 68vmin;
+    transform: perspective(1000px) rotateX(0deg) rotateY(15deg) rotateZ(0deg);
+}
+.image.background {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(1.1);
+    width: 100%;
+    z-index: -1;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+ 
