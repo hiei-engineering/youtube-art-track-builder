@@ -1,8 +1,8 @@
 # youtube-art-track-builder
 
-This Youtube Art Track Generator.
+This YouTube Art Track Generator.
 
-Automates tedious video editing when posting original music to Youtube.
+Automates tedious video editing when posting original music to YouTube.
 
 [Youtube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
 
@@ -15,6 +15,10 @@ Automates tedious video editing when posting original music to Youtube.
 
 - Music
 - Album cover
+
+## Deliverable file
+
+[![Youtube - Variations on Electronica for Today](https://img.youtube.com/vi/gUQ7W164I3Y/0.jpg)](https://www.youtube.com/watch?v=gUQ7W164I3Y)
 
 ## Usage
 
