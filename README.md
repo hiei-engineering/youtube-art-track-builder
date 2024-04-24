@@ -4,21 +4,21 @@ YouTube Art Track Builder is,
 
 Automates tedious video editing when posting original music to YouTube.
 
-[Youtube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
+[YouTube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
 
 ### Generates the following
 
-- Image
-- Movie
+- Image file
+- Video file
 
 ### Please prepare the following
 
-- Music
-- Album cover
+- Music file
+- Album Cover file
 
 ## Deliverable file
 
-[![Youtube - Variations on Electronica for Today](https://img.youtube.com/vi/gUQ7W164I3Y/0.jpg)](https://www.youtube.com/watch?v=gUQ7W164I3Y)
+[![YouTube - Variations on Electronica for Today](https://img.youtube.com/vi/gUQ7W164I3Y/0.jpg)](https://www.youtube.com/watch?v=gUQ7W164I3Y)
 
 ## Usage
 
@@ -35,7 +35,7 @@ Move your data into the `src/resource/jacket.jpg` directory.
 Please display your browser in full screen.
 Take a screenshot of the entire screen by pressing `Shift(↑) + Command + 3`.
 
-`bin/open-movie-image`
+`bin/open-video-image`
 `bin/open-thumbnail` 
 
 #### 3. Movie generate
