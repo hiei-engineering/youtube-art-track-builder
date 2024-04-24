@@ -3,7 +3,7 @@ version: '3.9'
 services:
   youtube-art-track-builder-core:
     container_name: youtube-art-track-builder-core
-    image: jrottenberg/ffmpeg:3.3-ubuntu
+    image: jrottenberg/ffmpeg:4.1-ubuntu
     volumes:
       - type: bind
         source: ../input/
