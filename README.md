@@ -1,6 +1,6 @@
 # youtube-art-track-builder
 
-This YouTube Art Track Generator.
+YouTube Art Track Builder is,
 
 Automates tedious video editing when posting original music to YouTube.
 
@@ -22,15 +22,15 @@ Automates tedious video editing when posting original music to YouTube.
 
 ## Usage
 
-#### 1. Reserve
+#### 1. Setup
 
-Please, container on boot.
+Please, booting container.
 
 `bin/compose` 
 
 Move your data into the `src/resource/jacket.jpg` directory.
 
-#### 2. Image Generate
+#### 2. Image generate
 
 Please display your browser in full screen.
 Take a screenshot of the entire screen by pressing `Shift(↑) + Command + 3`.
@@ -38,7 +38,7 @@ Take a screenshot of the entire screen by pressing `Shift(↑) + Command + 3`.
 `bin/open-movie-image`
 `bin/open-thumbnail` 
 
-#### 3. Movie Generate
+#### 3. Movie generate
 
 Move your screenshot into the `input/*` directory.
 
