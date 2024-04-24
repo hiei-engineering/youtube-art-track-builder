@@ -21,13 +21,13 @@ h1 {
 }
 .image {
     background: center/cover;
-    background-image: url(./resource/jacket.jpg);
+    background-image: url(../resource/jacket.jpg);
 }
 .image.thumb {
-    height: 68vmin;
-    margin: 10vw 10vw 10vw 10vw;
-    width: 68vmin;
-    transform: perspective(1000px) rotateX(0deg) rotateY(15deg) rotateZ(0deg);
+    height: 95vmin;
+    margin: 10vw auto 10vw auto;
+    width: 95vmin;
+    text-align: center;
 }
 .image.background {
     -webkit-filter: blur(8px);
