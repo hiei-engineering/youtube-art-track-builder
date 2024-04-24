@@ -21,7 +21,7 @@ h1 {
 }
 .image {
     background: center/cover;
-    background-image: url(../resource/jacket.jpg);
+    background-image: url('/resource/jacket.jpg');
 }
 .image.thumb {
     height: 68vmin;

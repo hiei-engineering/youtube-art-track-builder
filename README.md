@@ -28,17 +28,17 @@ Please, booting container.
 
 `bin/compose` 
 
-Move your data into the `src/resource/jacket.jpg` directory.
+Move your data into the `input/jacket.jpg` directory.
 
 #### 2. Image generate
 
 Please display your browser in full screen.
 Take a screenshot of the entire screen by pressing `Shift(↑) + Command + 3`.
 
-`bin/open-video-image`
-`bin/open-thumbnail` 
+`bin/command/open-video-image`
+`bin/command/open-thumbnail` 
 
-#### 3. Movie generate
+#### 3. Video generate
 
 Move your screenshot into the `input/*` directory.
 

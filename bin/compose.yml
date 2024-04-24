@@ -24,4 +24,7 @@ services:
       - type: bind
         source: ../src
         target: /usr/share/nginx/html
+      - type: bind
+        source: ../input
+        target: /usr/share/nginx/html/resource
     tty: true
