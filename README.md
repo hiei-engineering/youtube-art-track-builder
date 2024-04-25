@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml)
 
+## Overview
+
 YouTube Art Track Builder automates tedious video editing when posting original music to YouTube.
 
 [YouTube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
@@ -16,9 +18,14 @@ YouTube Art Track Builder automates tedious video editing when posting original 
 - Music file
 - Album Cover file
 
-## Deliverable file
+## Output file
 
 [![YouTube - Variations on Electronica for Today](https://img.youtube.com/vi/gUQ7W164I3Y/0.jpg)](https://www.youtube.com/watch?v=gUQ7W164I3Y)
+
+## Requirement
+
+- Docker Engine
+- Docker Compose
 
 ## Usage
 
@@ -26,23 +33,23 @@ YouTube Art Track Builder automates tedious video editing when posting original 
 
 Please, booting container.
 
-`bin/compose` 
+`bin/compose`
 
 Move your data into the `input/jacket.jpg` directory.
 
 #### 2. Image generate
 
+`bin/command/open-video-image`  
+`bin/command/open-thumbnail`
+
 Please display your browser in full screen.
 Take a screenshot of the entire screen by pressing `Shift(↑) + Command + 3`.
-
-`bin/command/open-video-image`
-`bin/command/open-thumbnail` 
 
 #### 3. Video generate
 
 Move your screenshot into the `input/*` directory.
 
-`bin/command/generate` 
+`bin/command/generate`
 
 ## Special Thanks
 
