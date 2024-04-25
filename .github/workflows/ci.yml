@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup container
+        run: bin/compose
+
+      - name: Generate video
+        run: bin/command/generate
+
+      - name: Check output file exists
+        run: |
+          if [ -f "output/output.mp4" ]; then
+            echo 'File exists!'
+          else
+            echo 'File does not exist.'
+            exit 1
+          fi
+
+      - name: Shutdown container
+        run: bin/down
