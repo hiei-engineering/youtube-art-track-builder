@@ -1,8 +1,6 @@
 # youtube-art-track-builder
 
-YouTube Art Track Builder is,
-
-Automates tedious video editing when posting original music to YouTube.
+YouTube Art Track Builder automates tedious video editing when posting original music to YouTube.
 
 [YouTube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
 
