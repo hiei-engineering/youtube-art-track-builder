@@ -1,5 +1,7 @@
 # youtube-art-track-builder
 
+[![CI](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml)
+
 YouTube Art Track Builder automates tedious video editing when posting original music to YouTube.
 
 [YouTube Help - What is an Art Track?](https://support.google.com/youtube/answer/6007071?hl=en)
