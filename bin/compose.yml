@@ -1,8 +1,7 @@
 version: '3.9'
 
 services:
-  youtube-art-track-builder-core:
-    container_name: youtube-art-track-builder-core
+  encoder:
     image: jrottenberg/ffmpeg:4.1-ubuntu
     volumes:
       - type: bind
@@ -15,11 +14,10 @@ services:
       - "sh"
     tty: true
 
-  youtube-art-track-image:
-    container_name: youtube-art-track-image
+  image:
     image: nginx:1.26.0-bookworm
     ports:
-      - "80:80"
+      - "2005:80"
     volumes:
       - type: bind
         source: ../src

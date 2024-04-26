@@ -1,3 +1,3 @@
 #!/bin/bash
-
-docker exec -i youtube-art-track-builder-core ffmpeg -loop 1 -i input/video-image.png -i input/music.wav -c:v libx264 -tune stillimage -c:a aac -b:a 384k -pix_fmt yuv420p -shortest output/output.mp4
+cd bin/ &&
+docker compose exec -i encoder ffmpeg -loop 1 -i input/video-image.png -i input/music.wav -c:v libx264 -tune stillimage -c:a aac -b:a 384k -pix_fmt yuv420p -shortest output/output.mp4
