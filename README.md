@@ -1,6 +1,6 @@
 # youtube-art-track-builder
 
-<img src="https://repository-images.githubusercontent.com/744533880/d78e555a-869a-4169-9347-5fa28bd90d70" width="500px">
+<img src="https://repository-images.githubusercontent.com/744533880/c41bb35d-6bbe-4881-9b43-83eacbcfab6a" width="500px">
 
 [![CI](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/iamyukihiro/youtube-art-track-builder/actions/workflows/ci.yml)
 
